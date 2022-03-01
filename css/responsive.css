@@ -1,0 +1,479 @@
+@media (max-width:575.98px) {
+    .navbar-brand img {
+        width: 70%;
+    }
+
+    .navbar-toggler i {
+        color: #fff;
+    }
+
+    /* banner part start  */
+    #banner .overlay {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    #banner .banner_text h3 {
+        font-size: 20px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 30px;
+    }
+
+    #banner .banner_text p {
+        font-size: 14px;
+    }
+
+    #banner .banner_text a {
+        margin-top: 10px;
+        padding: 10px 30px;
+    }
+
+    /* banner part end */
+    /* idea part start  */
+    #idea .idea_main_text h3 {
+        font-size: 20px;
+    }
+
+    /* idea part end  */
+    /* wordpress part start  */
+    #wordpress {
+        padding: 30px 0;
+    }
+
+    #wordpress .wordpress_main .word_text {
+        text-align: center;
+    }
+
+    #wordpress .wordpress_main .word_text h3 {
+        font-size: 20px;
+    }
+
+    #wordpress .wordpress_main .word_text p {
+        font-size: 14px;
+    }
+
+    #wordpress .wordpress_main .word_btn {
+        text-align: center;
+    }
+
+    #wordpress .wordpress_main .word_btn a {
+        padding: 10px 12px;
+        font-size: 10px;
+
+    }
+
+    /* wordpress part end */
+    /* project part start  */
+    #project .project_main .project_text h3 {
+        font-size: 20px;
+
+    }
+
+    #project .project_main .gutter {}
+
+    #project .project_main .project_text p {
+        font-size: 14px;
+        padding: 20px 0;
+    }
+
+    /* project part end */
+    /* video part start  */
+    #video .overlay_video .present_text h3 {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    #video .overlay_video .present_text p {
+        font-size: 14px;
+
+    }
+
+    #video .overlay_video .present_text a {
+
+        height: 87px;
+        width: 87px;
+        border-radius: 50%;
+        line-height: 83px;
+    }
+
+    #video .overlay_video {
+        padding: 60px 0;
+    }
+
+    /* video part end */
+    /* device part start  */
+    #device .text h3 {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    #device .text p {
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+
+    #device .text ul {
+        padding-left: 0;
+    }
+
+    #device .text ul li {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+
+    #device .text ul li i {
+        margin-right: 10px;
+    }
+
+    /* device part end  */
+    /* counter part start  */
+    #counter .counter_main h2 {
+        font-size: 35px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+
+    /* counter part end */
+
+    /* recent part start  */
+    #recent {
+        padding-top: 23px;
+    }
+
+    #recent .recent_main .text h3 {
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+
+    #recent .recent_main .text p {
+        font-size: 14px;
+    }
+
+    #recent .recent_main .item_main .item .text h3 {
+        font-size: 10px;
+    }
+
+    #recent .recent_main .item_main {
+        margin: 0 auto;
+    }
+
+    /* recent part end  */
+
+    /* support part start */
+    #support .overlay_3 {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+
+    #support .overlay_3 .item_main .item {
+        margin-bottom: 30px;
+    }
+
+    #support .overlay_3 .item_main .item img {
+        width: 40%;
+        padding-bottom: 10px;
+    }
+
+    /* support part end  */
+    /* footer part start  */
+    #footer .footer_item .img {
+        margin-top: 40px;
+    }
+
+    #footer .item_1 .img img {
+        width: 50%;
+    }
+
+    #footer .text p {
+        font-size: 14px;
+        padding: 10px 0;
+        margin-bottom: 0;
+    }
+
+    #footer .footer_item h1 {
+
+        font-size: 20px;
+
+        padding-top: 40px;
+    }
+
+    #footer .footer_item.item_2 h5 {
+
+        padding-top: 15px;
+    }
+
+    #footer .footer_item.item_3 h1 {
+
+        font-size: 20px;
+
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    #footer .footer_item.item_3 h1 {
+        font-size: 20px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    #footer_main .footer_text .text p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #footer_main .footer_text .text_two p {
+        font-size: 10px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #footer_main .footer_item.item_3 img {
+        width: 50%;
+    }
+
+    /* footer part end  */
+}
+
+/* mediam device responsive */
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    /* navbar responsive start  */
+    .navbar-toggler i {
+        color: #998675;
+    }
+
+    /* navbar responsive end  */
+    /* banner part responsive start */
+    #banner .overlay {
+        padding-top: 176px;
+        padding-bottom: 169px;
+        background: rgba(17, 17, 17, 0.699);
+    }
+
+    #banner .banner_text h3 {
+
+        font-size: 32px;
+
+    }
+
+    #banner .banner_text h1 {
+
+        font-size: 46px;
+
+    }
+
+    #banner .banner_text p {
+
+        font-size: 14px;
+
+    }
+
+    #banner .banner_text a {
+
+        padding: 15px 24px;
+
+    }
+
+    /* banner part responsive end */
+    /* wordpress part responsive */
+    #wordpress .wordpress_main .word_btn a {
+        padding: 13px 20px;
+    }
+
+    /* wordpress part responsive */
+    /* video part responsive start*/
+    #video .overlay_video {
+        padding-top: 104px;
+        padding-bottom: 105px;
+
+    }
+
+    /* video part responsive end*/
+
+    /* device part responsive */
+    /* #device .text h3 {
+        font-size: 26px;
+        padding-top: 53px;
+        padding-bottom: 14px;
+    }
+
+    #device .text p {
+        padding-bottom: 16px;
+    }
+
+    #device .text ul {
+        padding-left: 0;
+    }
+
+    #device .text ul li {
+        padding: 10px 0;
+        font-size: 14px;
+
+    }
+
+    #device .img {
+        width: 70%;
+    } */
+
+    /* device part responsive */
+    /* recent part start  */
+    #recent {
+        padding-top: 40px;
+    }
+
+    #recent .recent_main .text h3 {
+
+        padding-bottom: 7px;
+    }
+
+    #recent .recent_main .item_main .item .text {
+        padding: 15px 10px;
+    }
+
+    /* recent part end  */
+    /* support part start */
+    #support .overlay_3 .item_main .item img {
+        width: 49%;
+        padding-bottom: 65px;
+    }
+
+    #support .overlay_3 {
+        padding: 57px 0;
+
+    }
+
+    #footer .footer_item h1 {
+
+        padding-top: 56px;
+    }
+
+    #footer .footer_item.item_3 h1 {
+        padding-top: 34px;
+        padding-bottom: 5px;
+    }
+
+    /* support part  end*/
+    /* footer part  start */
+    #footer_main .footer_text .text {
+        text-align: center;
+    }
+
+    #footer_main .footer_text .text_two {
+        text-align: center;
+    }
+
+    /* footer part  end */
+}
+
+/* lg responsive  part  start*/
+@media (min-width:768px) and (max-width:991.98px) {
+    .navbar-brand img {
+        width: 90%;
+    }
+
+    .navbar-toggler i {
+        color: #759981;
+    }
+
+    /* banner part start  */
+    #banner .overlay {
+        padding-top: 202px;
+        padding-bottom: 168px;
+        ;
+    }
+
+    #banner .banner_text h3 {
+        font-size: 27px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 40px;
+    }
+
+    #banner .banner_text p {
+        font-size: 14px;
+    }
+
+    #banner .banner_text a {
+        margin-top: 10px;
+        padding: 10px 30px;
+    }
+
+    /* banner part end */
+    /* video part start  */
+    #video .overlay_video {
+        padding-top: 97px;
+        padding-bottom: 112px;
+
+    }
+
+    /* video part  end */
+
+    /* device part start  */
+   
+    #device .text h3 {
+        padding-top: 10px;
+        padding-bottom: 2px;
+        font-size: 29px;
+    }
+
+    #device .text p {
+        padding-bottom: 1px;
+    }
+
+    #device .text ul {
+        padding-left: 0;
+    }
+
+    #device .text ul li {
+        padding: 7px 0;
+        font-size: 14px;
+
+    }
+
+    /* device part end  */
+    /* recent part start  */
+    #recent {
+        padding-top: 44px;
+    }
+
+    #recent .recent_main .item_main .item .text {
+        padding: 15px 10px
+    }
+
+    /* recent part end  */
+    /* support part start  */
+    #support .overlay_3 .item_main .item img {
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+    #support .overlay_3 {
+        padding: 50px 0;
+
+    }
+
+    /* support part end  */
+    /* footer part start  */
+    #footer_main .footer_text .text {
+        text-align: center;
+    }
+
+    #footer_main .footer_text .text_two {
+        text-align: center;
+    }
+
+    /* footer part end  */
+}
+
+/* lg responsive  part end */
+
+/* sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1400px */

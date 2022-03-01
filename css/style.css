@@ -1,0 +1,896 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+/*=========================
+        common css end  
+ ========================*/
+
+
+/* ===================================
+          navbar  css start here 
+ =====================================*/
+.main_menu li {
+    margin: 0 15px;
+}
+
+.main_menu .nav-item a.nav-link {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    transition: all linear .3s;
+
+}
+
+.main_menu .nav-item a.nav-link:hover {
+    color: #c7b299;
+
+
+}
+
+.main_menu .nav-item a.nav-link.active {
+    color: #c7b299;
+}
+
+#navbar {
+    background: transparent;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* ===================================
+          navbar  css start here 
+ =====================================*/
+
+
+/* ===================================
+          banner  css start here 
+ =====================================*/
+#banner {
+    background: url(../images/banner.jpg)no-repeat center/cover;
+}
+
+#banner .overlay {
+    padding-top: 380px;
+    padding-bottom: 370px;
+    background: rgba(17, 17, 17, 0.699);
+}
+
+#banner .banner_text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#banner .banner_text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    color: #ffffff;
+
+}
+
+#banner .banner_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+
+    margin-bottom: 38px;
+}
+
+#banner .banner_text a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 21px 55px;
+    background: #998675;
+    border-radius: 5px;
+    margin-top: 20px;
+
+
+}
+
+
+/* ===================================
+         banner  css start here 
+ =====================================*/
+
+/* ===================================
+         services  css start here 
+ =====================================*/
+.services_item {
+    padding-top: 80px;
+}
+
+.services_item:hover i {
+    color: #c7b299;
+}
+
+.services_item:hover h2 {
+    color: #c7b299;
+}
+
+.services_item i {
+    font-size: 50px;
+    color: #555555;
+}
+
+.services_item h2 {
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 25px 0;
+
+
+}
+
+.services_item p {
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 25px;
+    position: relative;
+
+}
+
+.services_item p::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 3px;
+    background: #555555;
+
+}
+
+
+.services_item:hover p::after {
+
+    background: #c7b299;
+}
+
+/* ===================================
+         services  css start here 
+ =====================================*/
+
+
+/* ===================================
+        idea css start here 
+ =====================================*/
+#idea {
+    margin-top: 150px;
+}
+
+#idea .idea_main_text {
+    padding: 30px 0;
+}
+
+#idea .idea_main_text h3 {
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#idea .idea_main_text p {
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* ===================================
+        idea  css start here 
+ =====================================*/
+
+/* ===================================
+        wordpress  css start here 
+ =====================================*/
+#wordpress {
+    background: linear-gradient(to right, #211b19, #4e3427);
+    padding: 50px 0;
+}
+
+#wordpress .wordpress_main .word_text {}
+
+#wordpress .wordpress_main .word_text h3 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#wordpress .wordpress_main .word_text p {
+    color: #615855;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#wordpress .wordpress_main .word_btn a {
+    padding: 18px 28px;
+    background: #998675;
+    color: #ffffff;
+    border-radius: 5px;
+    border-bottom: 3px solid #736357;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* ===================================
+        wordpress  css end here 
+ =====================================*/
+
+/* ===================================
+        project  css start here 
+ =====================================*/
+#project {
+    margin-top: 85px;
+}
+
+#project .project_main .project_text_btn {
+    margin-bottom: 40px;
+}
+
+#project .project_main .project_text h3 {
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#project .project_main .project_text p {
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 35px 0;
+}
+
+#project .project_main .btn {
+    border: 2px solid #ebebeb;
+    border-radius: 5px;
+    transition: all linear .2s;
+}
+
+#project .project_main .btn:hover {
+
+    background: #998675;
+    color: #ffffff;
+}
+
+#project .project_main .item {
+    margin-bottom: 24px;
+
+
+}
+
+#project .project_main .item .img {
+    position: relative;
+}
+
+#project .project_main .img .overlay_one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.753);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .2s;
+
+}
+
+#project .project_main .img .overlay_one i {
+
+
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#project .project_main .text {
+    padding: 25px 27px;
+    background: #fbfaf8;
+    position: relative;
+    transition: all linear .2s;
+}
+
+#project .project_main .text::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    background: #fbfaf8;
+    transform: rotate(45deg);
+    top: -15px;
+    transition: all linear .2s;
+
+}
+
+#project .project_main .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #c7b299;
+}
+
+#project .project_main .text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #d1d1d1;
+}
+
+#project .project_main .item:hover .img .overlay_one {
+    opacity: 1;
+    visibility: visible;
+}
+
+#project .project_main .item:hover .img .overlay_one {
+    opacity: 1;
+    visibility: visible;
+}
+
+#project .project_main .item .img .overlay_one i:hover {
+    color: #c7b299;
+}
+
+#project .project_main .item:hover .text {
+    background: #362f2d;
+}
+
+#project .project_main .item:hover .text::after {
+    background: #362f2d;
+}
+
+/* ===================================
+        project  css end here 
+ =====================================*/
+
+/* ===================================
+        video  css start here 
+ =====================================*/
+#video {
+    background: url(../images/banner2.jpg) no-repeat center/cover;
+
+}
+
+#video .overlay_video {
+    padding-top: 203px;
+    padding-bottom: 257px;
+    background: rgba(17, 17, 17, 0.507);
+
+}
+
+#video .overlay_video .present_text a {
+    background: rgba(0, 0, 0, 0.247);
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    line-height: 100px;
+}
+
+#video .overlay_video .present_text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+#video .overlay_video .present_text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+
+/* ===================================
+        video  css start here 
+ =====================================*/
+
+/* ===================================
+        device  css start here 
+ =====================================*/
+#device {
+    margin-top: 70px;
+}
+
+#device .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    padding-top: 113px;
+    padding-bottom: 44px;
+}
+
+#device .text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c8c8c;
+    padding-bottom: 45px;
+
+}
+
+#device .text ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c8c8c;
+
+
+}
+
+#device .text ul li i {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    background: #c7b299;
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: 30px;
+
+
+}
+
+/* ===================================
+        device  css end here 
+ =====================================*/
+
+/* ===================================
+        counter  css start here 
+ =====================================*/
+#counter {
+    background: linear-gradient(to right, #211b19, #4e3427);
+    padding-top: 70px;
+    padding-bottom: 36px;
+}
+
+#counter .counter_main img {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+#counter .counter_main h2 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    padding-top: 14px;
+    padding-bottom: 21px;
+}
+
+#counter .counter_main h4 {
+    color: #c7b299;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#counter .counter_main h4::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ===================================
+        counter  css end here 
+ =====================================*/
+
+/* ===================================
+        recent  css end here 
+ =====================================*/
+#recent {
+    padding-top: 84px;
+}
+
+#recent .recent_main .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    padding-bottom: 30px;
+}
+
+
+#recent .recent_main .item_main {
+    position: relative;
+    margin-right: 30px;
+}
+
+#recent .recent_main .item_main .item .img {
+    position: relative;
+}
+
+#recent .recent_main .item_main .item .img .overlay_recent {
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.70);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+
+}
+
+#recent .recent_main .item_main .item:hover .img .overlay_recent {
+    opacity: 1;
+    visibility: visible;
+}
+
+#recent .recent_main .item_main .item:hover .text {
+    background: #362f2d;
+}
+
+#recent .recent_main .item_main .item:hover .text h3 {
+    color: #c7b299;
+}
+
+#recent .recent_main .item_main .item:hover .text p {
+    color: #ffffff;
+}
+
+#recent .recent_main .item_main:hover .calander .date {
+    background: #c7b299;
+    color: #ffffff;
+}
+
+#recent .recent_main .item_main:hover .calander .month {
+    background: #a48d72;
+    color: #ffffff;
+}
+
+#recent .recent_main .item_main .item:hover .text {
+    background: #362f2d;
+}
+
+#recent .recent_main .item_main .item .text {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    transition: all linear .3s;
+}
+
+#recent .recent_main .item_main .item .text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #555555;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+
+
+}
+
+
+
+#recent .recent_main .item_main .item .text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+
+
+
+
+
+}
+
+#recent .recent_main .item_main .item .text a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #c7b299;
+
+
+
+
+}
+
+#recent .recent_main .item_main .item .text a i {
+    color: #c7b299;
+
+
+
+}
+
+#recent .recent_main .calander {
+
+
+    border-radius: 6px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+#recent .recent_main .item_main .calander .date {
+
+    padding: 9px 12px;
+    background: #363636;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+
+}
+
+#recent .recent_main .item_main .calander .date h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+
+#recent .recent_main .item_main .calander .month {
+
+    padding: 6px 14px;
+    background: #252525;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+
+
+}
+
+#recent .recent_main .item_main .calander .month h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+/* slider part */
+.pre {
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    top: 110%;
+    height: 30px;
+    width: 30px;
+    background: #f5f0f0;
+    text-align: center;
+    line-height: 30px;
+    z-index: 2;
+}
+
+.next {
+    position: absolute;
+    right: 40%;
+    top: 110%;
+    transform: translateX(-50%);
+    height: 30px;
+    width: 30px;
+    background: #f5f0f0;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+/* ===================================
+        recent  css end here 
+ =====================================*/
+
+/* ===================================
+        support  css end here 
+ =====================================*/
+#support {
+    background: url(../images/banner-3.jpg);
+    margin-top: 80px;
+
+}
+
+#support .overlay_3 {
+    padding: 140px 0;
+    background: rgba(17, 17, 17, 0.705) no-repeat center/cover;
+}
+
+/* ===================================
+        support  css end here 
+ =====================================*/
+
+/* ===================================
+        footer  css end here 
+ =====================================*/
+#footer {
+    background: #191919;
+}
+
+#footer .footer_item .img {
+    margin-top: 75px;
+}
+
+#footer .text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    padding: 29px 0;
+}
+
+#footer .text a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+    color: #d1d1d1;
+}
+
+#footer .text a i {
+    margin-left: 10px;
+}
+
+#footer .footer_item h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 104px;
+}
+
+#footer .footer_item.item_2 ul {
+    padding-left: 0;
+}
+
+#footer .footer_item.item_2 ul li {
+    border-bottom: 1px solid #252525;
+}
+
+#footer .footer_item.item_2 ul li:last-child {
+    border-bottom: none;
+}
+
+#footer .footer_item.item_2 h5 {
+    color: #363636;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 33px;
+}
+
+#footer .footer_item.item_2 ul li:hover h5 {
+    color: #ffffff;
+
+}
+
+#footer .footer_item.item_2 ul li:hover p {
+    color: #c7b299;
+
+}
+
+#footer .footer_item.item_2 p {
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+
+
+#footer .footer_item.item_3 ul li {
+    border-bottom: 1px solid #252525;
+}
+
+#footer .footer_item.item_3 ul {
+    padding-left: 0;
+    margin: 0 0 0 0;
+    
+}
+
+#footer .footer_item.item_3 p {
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 15px;
+
+}
+
+#footer .footer_item.item_3 h5 {
+    color: #363636;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 18px;
+
+}
+#footer .footer_item.item_3 ul li:hover a {
+    color: #00bff3;
+
+}
+#footer .footer_item.item_3 ul li:last-child {
+    border-bottom: none;
+}
+
+#footer .footer_item.item_3  h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 104px;
+    padding-bottom: 30px;
+}
+#footer_main{
+    padding: 44px 0;
+    background: #111111;
+}
+#footer_main .footer_text .text {
+    color: #555555;
+}
+#footer_main .footer_text .text a{
+    color: #959595;
+    padding: 0 10px;
+}
+#footer_main .footer_text .text a:hover{
+    color: #c7b299;
+    
+}
+#footer_main .footer_text .text_two a{
+    color: #959595;
+    padding: 0 10px;
+}
+#footer_main .footer_text .text_two a:hover{
+    color: #c7b299;
+    
+}
+/* ===================================
+        footer  css end here 
+ =====================================*/
+/* ===================================
+        recent  css end here 
+ =====================================*/
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif; */
